@@ -158,6 +158,11 @@ class ViewController: UIViewController {
     }
     @IBAction func onTapGestureRecognized(_ sender: Any) {
         listNameField.resignFirstResponder()
+        itemField1.resignFirstResponder()
+        itemField2.resignFirstResponder()
+        itemField3.resignFirstResponder()
+        itemField4.resignFirstResponder()
+        itemField5.resignFirstResponder()
     }
 }
 
